@@ -3,6 +3,146 @@
     /* border: solid red 1px; */
 }
 
+body {
+    font-family: Inter, sans-serif;
+}
+
 /* ul {
     list-style-type: none;
 } */
+
+nav {
+    display: flex;
+    position: fixed;
+    flex-direction: column;
+    width: 100%;
+    background-color: #dadada;
+    /* padding: 0 10px; */
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    gap: 22px;
+    list-style: none;
+    font-size: 12px;
+    font-weight: 400;
+    font-style: normal;
+    padding: 0;
+}
+
+nav ul li {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+.NAV_upper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 10px;
+}
+
+.NAV_under {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background: #C1C1C1;
+    padding: 8px 10px;
+}
+
+.logo {
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 100;
+}
+
+.mid_Const {
+    min-width: 30%;
+}
+
+.SearchButton {
+    border: 0;
+    border-radius: 4px 0px 0px 4px;
+    background: #B2B2B2;
+}
+
+.SearchBar {
+    border-radius: 6px;
+    background: white;
+}
+
+.languageIcon {
+    border-radius: 100px;
+}
+
+.carousel_Container {
+    padding-top: 79px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.leftArrow {
+    left: 20px;
+    position: absolute;
+}
+
+.rightArrow {
+    /* ini kepaksa pake px yak? */
+    left: 1450px;
+    position: absolute;
+}
+
+.categories_Container {
+    background-color: #B7B8B3;
+    padding-top: 100px;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 100px;
+    justify-content: space-between;
+    position: relative;
+    display: flex;
+}
+
+.category1 {
+    padding: 10px;
+    background-color: white;
+}
+.category2 {
+    padding: 10px;
+    background-color: white;
+}
+.category3 {
+    padding: 10px;
+    background-color: white;
+}
+.category4 {
+    padding: 10px;
+    background-color: white;
+}
+.category5 {
+    padding: 10px;
+    background-color: white;
+}
+.category6 {
+    padding: 10px;
+    background-color: white;
+}
+
+.product_Container {
+    display: flex;
+}
+
+h3.mostRented {
+    position: absolute;
+    text-align: center;
+}
+
+
