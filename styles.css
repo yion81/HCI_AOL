@@ -7,6 +7,15 @@ body {
     font-family: Inter, sans-serif;
 }
 
+div.login_page {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
 /* ul {
     list-style-type: none;
 } */
@@ -183,3 +192,41 @@ a.logoA {
 }
 
 
+div.login_logo {
+    display: flex;
+    justify-content: center;
+}
+
+a.HomepageNAV_login {  
+    font-size: 50px;
+    font-weight: 100;
+    color: black;
+    text-decoration: none;
+}
+
+div.cardP {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div.login_cardP {
+    background-color: #f1f1f1;
+    /* position: absolute;
+    left: 33.2%; */
+    display: flex;
+    justify-self: center;
+    width: 577px;
+    height: 607px;
+}
+
+div.login_text_box {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+a.Testing {
+    display: flex;
+    justify-content: center;
+}
