@@ -135,27 +135,39 @@ nav ul li a {
 .category1 {
     padding: 10px;
     background-color: white;
+    border-radius: 12px;
 }
 .category2 {
     padding: 10px;
     background-color: white;
+    border-radius: 12px;
 }
 .category3 {
     padding: 10px;
     background-color: white;
+    border-radius: 12px;
 }
 .category4 {
     padding: 10px;
     background-color: white;
+    border-radius: 12px;
 }
 .category5 {
     padding: 10px;
     background-color: white;
+    border-radius: 12px;
 }
 .category6 {
     padding: 10px;
     background-color: white;
+    border-radius: 12px;
 }
+
+img.camera_png {
+    border-radius: 12px;
+}
+
+
 
 .product_Container {
     display: flex;
@@ -164,6 +176,10 @@ nav ul li a {
 h3.mostRented {
     position: absolute;
     text-align: center;
+}
+
+a.logoA {
+    text-decoration: none;
 }
 
 
