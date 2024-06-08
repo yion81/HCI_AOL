@@ -351,3 +351,24 @@ a.no_account_text {
     text-decoration: none;
 }
 
+div.discount_box {
+    width: 1097px;
+    height: 148px;
+    
+    padding-top: 122px;
+    display: flex;
+    border:solid #B2B2B2 4px;
+}
+
+div.discount_banner_text_box {
+    width: 416px;
+    height: 114px;
+    display: flex;
+    justify-content: center;
+
+}
+
+label.discount_banner_text {
+    font-size: 32px;
+    font-weight: bold;
+}
