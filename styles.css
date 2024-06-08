@@ -228,6 +228,7 @@ div.login_text_box {
     display: flex;
     justify-content: center;
     margin-bottom: 20px;
+    padding-top: 20px;
 }
 
 a.login_text {
@@ -244,6 +245,11 @@ label.password_text {
     font-weight: bold;
 }
 
+label.name_text {
+    font-size: 20px;
+    font-weight: bold;
+}
+
 div.email_box {
     display: flex;
     justify-content: center;
@@ -255,7 +261,7 @@ div.password_box {
     justify-content: center;
 }
 
-input.password_input, input.email_input {
+input.password_input, input.email_input, input.name_input {
     width: 344px;
     padding: 10px;
     border-width: 1px;
@@ -281,6 +287,11 @@ div.footer_container {
 
 div.COS_box, div.privacy_box, div.help_box{
     padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+div.name_box {
     display: flex;
     justify-content: center;
 }
