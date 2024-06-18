@@ -1,0 +1,465 @@
+*{
+    margin: 0px;
+    /* border: solid red 1px; */
+}
+
+body {
+    font-family: Inter, sans-serif;
+}
+
+div.login_page {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* ul {
+    list-style-type: none;
+} */
+
+nav {
+    display: flex;
+    position: fixed;
+    flex-direction: column;
+    width: 100%;
+    background-color: #dadada;
+    /* padding: 0 10px; */
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    gap: 22px;
+    list-style: none;
+    font-size: 12px;
+    font-weight: 400;
+    font-style: normal;
+    padding: 0;
+}
+
+nav ul li {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+.NAV_upper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 10px;
+}
+
+.NAV_under {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background: #C1C1C1;
+    padding: 8px 10px;
+}
+
+.logo {
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 100;
+}
+
+.mid_Const {
+    min-width: 30%;
+}
+
+.SearchButton {
+    border: 0;
+    border-radius: 4px 0px 0px 4px;
+    background: #B2B2B2;
+}
+
+.SearchBar {
+    border-radius: 6px;
+    background: white;
+}
+
+.SearchBar form {
+    display: flex;
+    /* align-items: center; */
+}
+
+.SearchBar form input {
+    border: 0;
+    border-radius: 0 6px 6px 0;
+    width: 100%;
+    text-indent: 4px;
+}
+
+.languageIcon {
+    border-radius: 100px;
+}
+
+.carousel_Container {
+    padding-top: 94px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: #B2B2B2;
+}
+
+.carousel_image {
+    display: flex;
+}
+
+.leftArrow {
+    /* kalo bisa gapake px */
+    left: 2%;
+    position: relative;
+}
+
+.rightArrow {
+    /* kalo bisa gapake px */
+    left: -2%;
+    position: relative;
+}
+
+.categories_Container {
+    background-color: #B7B8B3;
+    padding-top: 100px;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 100px;
+    width: 80%;
+    justify-content: space-between;
+    position: relative;
+    display: flex;
+    gap: 12px;
+}
+
+.category1 {
+    padding: 10px;
+    background-color: white;
+    border-radius: 12px;
+}
+.category2 {
+    padding: 10px;
+    background-color: white;
+    border-radius: 12px;
+}
+.category3 {
+    padding: 10px;
+    background-color: white;
+    border-radius: 12px;
+}
+.category4 {
+    padding: 10px;
+    background-color: white;
+    border-radius: 12px;
+}
+.category5 {
+    padding: 10px;
+    background-color: white;
+    border-radius: 12px;
+}
+.category6 {
+    padding: 10px;
+    background-color: white;
+    border-radius: 12px;
+}
+
+img.camera_png {
+    border-radius: 12px;
+}
+
+
+
+.product_Container {
+    display: flex;
+}
+
+h3.mostRented {
+    position: absolute;
+    text-align: center;
+}
+
+a.logoA {
+    text-decoration: none;
+    font-weight: 1;
+}
+
+
+div.login_logo {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+a.HomepageNAV_login {  
+    font-size: 50px;
+    font-weight: 100;
+    color: black;
+    text-decoration: none;
+}
+
+div.cardP {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div.login_cardP {
+    background-color: #f1f1f1;
+    display: flex;
+    border-radius: 20px;
+    flex-direction: column;
+    justify-self: center;
+    width: 577px;
+    height: 607px;
+}
+
+div.login_text_box {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    padding-top: 20px;
+}
+
+a.login_text {
+    font-size: 50px;
+}
+
+label.email_text {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+label.password_text {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+label.name_text {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+div.email_box {
+    display: flex;
+    justify-content: center;
+    
+}
+
+div.password_box {
+    display: flex;
+    justify-content: center;
+}
+
+input.password_input, input.email_input, input.name_input {
+    width: 344px;
+    padding: 10px;
+    border-width: 1px;
+    border-radius: 12px;
+    margin-bottom: 25px;
+}
+
+div.footer_P {
+    margin-top: 25px;
+    width: 100%;
+    height: 100vw;
+    display: flex;
+    flex-direction: row;
+    background-color: #f1f1f1;
+    justify-content: center;
+}
+
+div.footer_container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+div.COS_box, div.privacy_box, div.help_box{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+div.name_box {
+    display: flex;
+    justify-content: center;
+}
+
+button.login_button {
+    border-width: 0;
+    background-color: #E2E2E2;
+    border-radius: 50px;
+    width: 344px;
+    height: 44px;
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+div.forget_password_box {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+a.forget_password_text {
+    margin-right: 174px;
+    text-decoration: none;
+}
+
+div.or_box {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+div.google_button_box {
+    display: flex;
+    justify-content: center;
+}
+
+button.google_button {
+    border-width: 0;
+    background-color: white;
+    border-radius: 50px;
+    width: 344px;
+    height: 44px;
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+    font-weight: bold;
+    margin-bottom: 35px;
+}
+
+div.no_account_box {
+    display: flex;
+    justify-content: center;
+}
+
+a.no_account_text {
+    text-decoration: none;
+}
+
+div.discount_box {
+    width: 1097px;
+    height: 148px;
+    
+    padding-top: 122px;
+    display: flex;
+    border:solid #B2B2B2 4px;
+}
+
+div.discount_banner_text_box {
+    width: 416px;
+    height: 114px;
+    display: flex;
+    justify-content: center;
+
+}
+
+label.discount_banner_text {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+/* tambahan (category) */
+.star-rating {
+    display: flex;
+    direction: row;
+}
+
+.star {
+    font-size: 2em;
+    color: gold;
+    margin: 0 5px;
+}
+
+.star:hover,
+.star:hover ~ .star {
+    color: lightgray;
+}
+
+.star-rating:hover .star {
+    color: gold;
+}
+
+nav{
+    z-index: 1;
+}
+
+div.categories_Container{
+    padding-top: 100px;
+    padding-bottom: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.category {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin: 10px;
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.category-picture {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.category-image {
+    max-width: 100%;
+    height: auto;
+    max-height: 100px;
+}
+
+
+div.categories_Container a{
+    text-align: center;
+    color: black;
+    text-decoration: solid;
+}
+
+div.Items-Electronic, div.Items-Audio, div.Items-Fashion, 
+div.Items-Furniture, div.Items-Outdoor, div.Items-Transport
+{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+
+
+div.Product{
+    background-color: #d3d3d3;
+    flex: 1 1 300px;
+    padding: 10px;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+div.Product img{
+    width: 100%;
+    height: auto;
+    max-height: 400px;
+    object-fit: cover;
+}
+
+div.Product p{
+    font-size: 25px;
+}
