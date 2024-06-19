@@ -74,3 +74,4 @@ carousel.addEventListener('touchend', function() {
     prevButton.click();
   }
 });
+

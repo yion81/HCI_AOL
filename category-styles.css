@@ -463,3 +463,33 @@ div.Product img{
 div.Product p{
     font-size: 25px;
 }
+
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #ffffff; /* White background */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    padding: 10px;
+    display: none;
+    z-index: 1000;
+    border: 2px solid #ccc; /* Add a border for better visibility */
+}
+
+
+.dropdown-menu.show {
+    display: block; /* Show when .show class is added */
+}
+
+.dropdown-menu a {
+    display: block;
+    padding: 8px 12px;
+    color: #333333; /* Text color */
+    text-decoration: none;
+    transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+.dropdown-menu a:hover {
+    background-color: #f0f0f0; /* Light background on hover */
+}

@@ -28,5 +28,4 @@ function selectOption(selectedDiv) {
   
     // Add 'selected' class to clicked option
     selectedDiv.classList.add('selected');
-  }
-  
+}
