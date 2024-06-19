@@ -82,15 +82,65 @@
 
     <!-- End of nav bar -->
     
+    <div class="arrow-back">
+        <button id="backButton">
+            <svg xmlns="http://www.w3.org/2000/svg" width="42" height="39" viewBox="0 0 42 39" fill="none">
+                <path d="M10.0406 21.9375L24.7406 35.5875L21 39L0 19.5L21 0L24.7406 3.4125L10.0406 17.0625H42V21.9375H10.0406Z" fill="#1C1B1F" fill-opacity="0.4"/>
+            </svg>
+        </button>
+    </div>
     <div class="discount_box">
         <div class="banner_box">
             <div class="discount_banner_text_box">
-                <label class="discount_banner_text">Save up to 30% upon renting several items</label>
+                <label class="discount_banner_text"><span class="highlight">Save up to 30%</span> upon renting several items</label>
             </div>
         </div>
         <div class="discount_qualify">
 
         </div>
     </div>
+
+    <div class="cart">
+        <h2>Rent Cart</h2>
+        <div class="cart-item2"></div>
+        <div class="cart-item">
+            <img src="Assets/Canon EOS R100.png" alt="Canon EOS R100">
+            <div class="item-details">
+                <p>Canon EOS R100 (RF-S18-45mm f/4.5-6.3 IS STM)</p>
+                <p>In Stock</p>
+                <p>Eligible for rent on Jakarta area</p>
+                <p>Price/day: Rp. 200.000 - 300.000</p>
+                <div class="item-options">
+                    <label for="qty1">Qty:</label>
+                    <input type="number" id="qty1" name="qty1" value="1" min="1">
+                    <label for="duration1">Duration:</label>
+                    <input type="number" id="duration1" name="duration1" value="2" min="1"> days
+                    <button>Delete</button>
+                    <button>Save for later</button>
+                </div>
+            </div>
+            <div class="item-price">Rp. 400.000</div>
+        </div>
+
+        <div class="cart-item">
+            <img src="Assets/Nikon Z.png" alt="Nikon Z fc">
+            <div class="item-details">
+                <p>Nikon Z fc Mirrorless Digital Camera w/16-50mm Lens</p>
+                <p>In Stock</p>
+                <p>Eligible for rent on Jakarta area</p>
+                <p>Price/day: Rp. 200.000 - 300.000</p>
+                <div class="item-options">
+                    <label for="qty2">Qty:</label>
+                    <input type="number" id="qty2" name="qty2" value="1" min="1">
+                    <label for="duration2">Duration:</label>
+                    <input type="number" id="duration2" name="duration2" value="2" min="1"> days
+                    <button>Delete</button>
+                    <button>Save for later</button>
+                </div>
+            </div>
+            <div class="item-price">Rp. 400.000</div>
+        </div>
+
+    <script src="cartScript.js"></script>
 </body>
 </html>
