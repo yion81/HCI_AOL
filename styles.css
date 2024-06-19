@@ -264,31 +264,37 @@ h3.mostRented {
     padding: 10px;
     background-color: white;
     border-radius: 12px;
+    transition: transform .4s;
 }
 .category2 {
     padding: 10px;
     background-color: white;
     border-radius: 12px;
+    transition: transform .4s;
 }
 .category3 {
     padding: 10px;
     background-color: white;
     border-radius: 12px;
+    transition: transform .4s;
 }
 .category4 {
     padding: 10px;
     background-color: white;
     border-radius: 12px;
+    transition: transform .4s;
 }
 .category5 {
     padding: 10px;
     background-color: white;
     border-radius: 12px;
+    transition: transform .4s;
 }
 .category6 {
     padding: 10px;
     background-color: white;
     border-radius: 12px;
+    transition: transform .4s;
 }
 
 img.camera_png {
@@ -636,6 +642,16 @@ div.categories_Container{
     background-color: #fff;
 }
 
+.category:hover {
+    transform: scale(1.04);
+    cursor: pointer;
+}
+
+.category1:hover, .category2:hover, .category3:hover, .category4:hover, .category5:hover, .category6:hover {
+    transform: scale(1.04);
+    cursor: pointer;
+}
+
 .category-picture {
     display: flex;
     justify-content: center;
@@ -672,6 +688,7 @@ div.Product{
     padding: 10px;
     border-radius: 10px;
     box-sizing: border-box;
+    transition: transform .4s;
 }
 
 div.Product img{
@@ -683,6 +700,11 @@ div.Product img{
 
 div.Product p{
     font-size: 25px;
+}
+
+.Product:hover {
+    transform: scale(1.04);
+    cursor: pointer;
 }
 
 /* Product page */
@@ -1111,3 +1133,4 @@ input#subscribe {
 .footer-right p {
     margin-bottom: 12px
 }
+
