@@ -33,6 +33,10 @@ div.login_page {
     margin: 5%;
 }
 
+.margin-preset2 {
+    margin: 30px 2% 0% 2%;
+}
+
 .bold {
     font-weight: bold;
 }
@@ -933,6 +937,12 @@ input[type="number"]::-webkit-outer-spin-button {
     width: 120%;
     justify-content: center;
     height: 100%;
+}
+
+.confirm {
+    width: 100px;
+    margin: 20px 0;
+    padding: 10px 20px;
 }
 
 .product-description {
