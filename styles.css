@@ -155,6 +155,45 @@ nav ul li a {
     border-radius: 100px;
 }
 
+.about-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--Columbia-Blue);
+}
+
+.about-content {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.about-vision, .about-mission, 
+.about-history, .about-socials {
+    max-width: 40%;
+}
+
+.social-links {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 16px;
+}
+
+.social-left, .social-right {
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-links a {
+    text-decoration: none;
+    color: var(--Night, #141715);
+}
+
 /* Carousel */
 
 .carousel {
